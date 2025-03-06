@@ -1,10 +1,12 @@
 package aula;
 
 public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+        olaMundo();
+    }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World!");
-	}
-
+    public static void olaMundo() {
+        System.out.println("Olá Mundo");
+    }
 }
